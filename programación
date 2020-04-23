@@ -1,0 +1,28 @@
+{
+		int op = 0;
+		char menu = 'n';
+		double n1 = 0;
+		double n2 = 0;
+		double total = 0;
+		string linea = "";
+		
+		while (menu!='s')
+		{
+			Console.WriteLine("1.- suma");
+			Console.WriteLine("2.- resta");
+			Console.WriteLine("3.- multiplicacion");
+			Console.WriteLine("4.- division");
+			Console.Write("5.- opcion: ");
+			
+			linea = Console.ReadLine();
+			op = int.Parse(linea);
+			
+			
+			Console.Write("ingrese el primer valor: ");
+			linea = Console.ReadLine();
+			n1 = int.Parse(linea);
+			
+			Console.Write("ingrese el segundo valor: ");
+			linea = Console.ReadLine();
+			n2 = int.Parse(linea);
+		}	
