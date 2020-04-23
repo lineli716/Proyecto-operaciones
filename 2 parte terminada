@@ -4,7 +4,7 @@ public class Program
 {
 	public static void Main()
 	{
-		Console.WriteLine( int op = 0;
+	    int op = 0; 
             char menu = 'n';
             double n1 = 0;
             double n2 = 0;
@@ -58,10 +58,9 @@ public class Program
                     linea = Console.ReadLine();
                     menu = char.Parse(linea);
                 }
-
             }
         }
-    }
-});
-	}
-}
+  }
+
+	
+
